@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    background-color: rgb(238, 238, 238)
+}
+
+
+.head{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    margin-top: -100px;
+    
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 120px;
+    height: 55px;
+    padding-top: 1px;
+    padding-left: 210px;
+    float: left;
+    
+}
+.search{
+    width: 208px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 238px;
+    border-radius: 2px;
+    border: 0;
+    background-color: rgb(231, 231, 231);
+    border: solid  rgb(209, 209, 209)  0.1px;
+    float: left;
+}
+.homeicon{
+    width: 33px;
+    height: 33px;
+    
+    margin-left: 160px;
+    float: left;
+}
+.mesicon{
+    margin-left: 30px;
+    font-size: 24px;
+    
+   
+}
+.comicon{
+    font-size: 24px;
+    margin-left: 30px;
+}
+.hearticon{
+    font-size: 24px;
+    margin-left: 30px;
+    
+}
+.profilepic{
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    margin-left: 50px;
+}
+.story-section{
+    width: 45%;
+    height: 100px;
+    background-color: #fff;
+    margin-left: 210px;
+    margin-top: 100px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+
+}
+.story-section::-webkit-scrollbar{
+    display: none;
+}
+.one{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: solid 2.5px  rgb(228, 40, 72);
+}
+.onetext{
+    float: left;
+    margin-left: -68px;
+    padding-top: 64px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.two{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    float: left;
+    margin-top: 15px;
+    border: solid 2.5px  rgb(228, 40, 72);
+    margin-left: 15px;
+}
+.twotext{
+    float: left;
+    margin-left: -70px;
+    padding-top: 64px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    
+}
+.three{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 15px;
+    border: solid 2.5px  rgb(228, 40, 72);
+    margin-left: 15px;
+}
+.threetext{
+    float: left;
+    margin-left: -55px;
+    padding-top: 79px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.four{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 15px;
+    border: solid 2.5px rgb(228, 40, 72);
+}
+.fourtext{
+    float: left;
+    margin-left: -70px;
+    padding-top: 79px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.five{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 15px;
+    border: solid 2.5px rgb(228, 40, 72);
+}
+.fivetext{
+    float: left;
+    margin-left: -60px;
+    padding-top: 79px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.six{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 15px;
+    border: solid 2.5px rgb(228, 40, 72);
+}
+.sixtext{
+    float: left;
+    margin-left: -60px;
+    padding-top: 79px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.profile{
+    height: 570px;
+    width: 500px;
+    background-color: rgb(238, 238, 238);
+    float: right;
+    margin-left: 1150px;
+    margin-top: 60px;
+    position: fixed;
+    
+}
+.profilephoto{
+    background-position: center;
+    background-size:cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.profilename{
+    font-size: 14px;
+    margin-top: -50px;
+    margin-left: 80px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    
+}
+.switch{
+    color: blue;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    padding-left: 350px;
+    margin-top: -50px;
+    font-size: small;
+}
+.subname{
+    font-size: small;
+    margin-top: -25px;
+    margin-left: 90px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    color: gray;
+
+}
+.suggestion{
+    margin-top: 30px;
+    color: gray;
+    font-weight: bold;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+.seeall{
+    margin-left: 187px;
+    font-weight: lighter;
+}
+.body{
+    width: 45%;
+    height: 900px;
+    background-color: #fff;
+    margin-left: 210px;
+    margin-top: 30px;
+}
+.posticon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 12px;
+    float: left;
+}
+.postname{
+    padding-top: 20px;
+}
+.post{
+    width: 100%;
+    height: 500px;
+}
+
+.like{
+    margin-top: 90px;
+    margin-left: 20px;
+    font-size: 28px;
+    color: rgb(247, 72, 72);
+}
+.liked{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+.likedtext{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Roboto,Helvetica,Arial,sans-serif ;
+    font-weight: lighter;
+    float: left;
+}
+.likedtxt{
+    font-family: Roboto,Helvetica,Arial,sans-serif ;
+    font-weight: bold;
+}
+.comment{
+    font-size: 29px;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+.plane{
+    font-size: 29px;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+.bookmark{
+    margin-left: 400px;
+    font-size: 29px;
+}
+.commnt1{
+    color:black;
+    margin-left: 30px;
+    font-family: Roboto,Helvetica,Arial,sans-serif ;
+    font-size: medium;
+}
+.allcomments{
+    color: gray;
+    padding-top: 20px;
+    font-family: Roboto,Helvetica,Arial,sans-serif ;
+    font-size: 15px;
+}
+.commnt2{
+    margin-left: 30px;
+    margin-top: -20px;
+    font-family: Roboto,Helvetica,Arial,sans-serif ;
+    font-size: 15px;
+}
+.time{
+    font-size: 12px;
+    color: rgb(151, 151, 151);
+    font-weight: lighter;
+}
+.smile{
+    font-size: 30px;
+    padding: 15px;
+    float: left;
+}
+.addcomment{
+    padding-top: 20px;
+    border: 0;
+    width: 400px;
+    height: 30px;
+}
+
+.terms{
+    color: gray;
+    font-family:Roboto,Helvetica,Arial,sans-serif  ;
+    font-size: x-small;
+}
+.decor{
+    text-decoration:none;
+    
+}
+
+
+.sec{
+    width: 450px;
+    height: 55px;
+    background-color: rgb(238, 238, 238);
+    margin-top: 20px;
+}
+.secimg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 9px;
+    float: left;
+}
+.sectext{
+    padding-left: 0px;
+    font-family: Roboto,Helvetica,Arial,sans-serif ;
+    font-size: 14px;
+
+}
+.newtoinsta{
+    font-size: smaller;
+    color: gray;
+}
+.follow{
+    color: blue;
+    margin-left: 200px;
+}
